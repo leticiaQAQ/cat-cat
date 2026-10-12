@@ -336,10 +336,10 @@
     "zh-Hans": "研究代码",
     "en": "Study ID"
   },
-  "使用匿名代碼，勿輸入姓名": {
-    "zh-Hant": "使用匿名代碼，勿輸入姓名",
-    "zh-Hans": "使用匿名代码，请勿输入姓名",
-    "en": "Use an anonymous ID, not a patient name."
+  "病例識別資料": {
+    "zh-Hant": "病例識別資料",
+    "zh-Hans": "病例识别信息",
+    "en": "Case identifier"
   },
   "年齡": {
     "zh-Hant": "年齡",
@@ -676,10 +676,10 @@
     "zh-Hans": "露龈",
     "en": "Gingival display"
   },
-  "請輸入 1–40 字的匿名代碼": {
-    "zh-Hant": "請輸入 1–40 字的匿名代碼",
-    "zh-Hans": "请输入 1–40 字的匿名代码",
-    "en": "Enter an anonymous ID of 1–40 characters."
+  "請輸入 1–40 字的病例識別資料": {
+    "zh-Hant": "請輸入 1–40 字的病例識別資料",
+    "zh-Hans": "请输入 1–40 字的病例识别信息",
+    "en": "Enter a case identifier of 1–40 characters."
   },
   "請選擇有效選項": {
     "zh-Hant": "請選擇有效選項",
@@ -1386,10 +1386,10 @@
     "zh-Hans": "病例管理",
     "en": "Case management"
   },
-  "病例名稱（建議使用匿名代碼）": {
-    "zh-Hant": "病例名稱（建議使用匿名代碼）",
-    "zh-Hans": "病例名称（建议使用匿名代码）",
-    "en": "Case name (use an anonymous code)"
+  "病例名稱": {
+    "zh-Hant": "病例名稱",
+    "zh-Hans": "病例名称",
+    "en": "Case name"
   },
   "保存病例": {
     "zh-Hant": "保存病例",
