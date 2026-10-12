@@ -7,7 +7,7 @@
   const version = 'catcat-score-1.0';
   const groups = [
     {id:'case', title:'病例與計畫', en:'CASE PROFILE', fields:[
-      {id:'caseId',label:'研究代碼',type:'text',hint:'',maxLength:40},
+      {id:'caseId',label:'病例識別',type:'text',hint:'',maxLength:40},
       {id:'age',label:'年齡',unit:'歲',min:6,max:100,step:0.1,optional:true,hint:'選填背景紀錄，不參與 CAT-CAT 計分'}
     ]},
     {id:'dental',title:'模型分析',en:'DENTAL MODEL',fields:[
