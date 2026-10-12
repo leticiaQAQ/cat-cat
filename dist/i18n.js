@@ -1724,7 +1724,7 @@
     "en": "The file could not be read. Select it again."
   }
 };
-  let lang='zh-Hant';
+  let lang='en';
   try{const saved=localStorage.getItem('catcat-demo-language-v1');if(['zh-Hant','zh-Hans','en'].includes(saved))lang=saved;}catch{}
   const records=[];
   function t(key,params={}){let value=dictionary[key]?.[lang]??key;return value.replace(/\{(\w+)\}/g,(_,k)=>params[k]??`{${k}}`);}
