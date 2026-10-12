@@ -7,7 +7,7 @@
   const version = 'catcat-score-1.0';
   const groups = [
     {id:'case', title:'病例與計畫', en:'CASE PROFILE', fields:[
-      {id:'caseId',label:'研究代碼',type:'text',hint:'使用匿名代碼，勿輸入姓名',maxLength:40},
+      {id:'caseId',label:'研究代碼',type:'text',hint:'',maxLength:40},
       {id:'age',label:'年齡',unit:'歲',min:6,max:100,step:0.1,optional:true,hint:'選填背景紀錄，不參與 CAT-CAT 計分'}
     ]},
     {id:'dental',title:'模型分析',en:'DENTAL MODEL',fields:[
@@ -72,7 +72,7 @@
       if(!active(f,s)) continue;
       const v=s[f.id];
       if(f.optional&&(v===''||v===null||v===undefined))continue;
-      if(f.type==='text') {if(typeof v!=='string'||v.trim().length<1||v.length>f.maxLength) errors[f.id]='請輸入 1–40 字的匿名代碼';}
+      if(f.type==='text') {if(typeof v!=='string'||v.trim().length<1||v.length>f.maxLength) errors[f.id]='請輸入 1–40 字的病例識別資料';}
       else if(f.type==='select') {if(!f.options.some(o=>o[0]===v))errors[f.id]='請選擇有效選項';}
       else if(f.type==='check') {if(typeof v!=='boolean')errors[f.id]='請選擇有或無';}
       else {
