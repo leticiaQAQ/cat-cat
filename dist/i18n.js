@@ -1041,11 +1041,6 @@
     "zh-Hans": "默认值均为合成示例；新病例的未知项目留空，“无”须手动确认。空白、超范围或错误输入会暂停总分。导入与新病例均保留固定参考；最近一次填入可撤销。",
     "en": "Defaults are synthetic examples. Unknown items in new cases stay blank; absence requires confirmation. Missing, out-of-range or invalid inputs pause the total. Imports and new cases retain the fixed reference; the latest import can be undone."
   },
-  "文獻評分原型 · 請核對病例資料": {
-    "zh-Hant": "文獻評分原型 · 請核對病例資料",
-    "zh-Hans": "文献评分原型 · 请核对病例资料",
-    "en": "Published-score prototype · Verify case inputs"
-  },
   "匯入頭影測量資料": {
     "zh-Hant": "匯入頭影測量資料",
     "zh-Hans": "导入头影测量数据",
@@ -1713,10 +1708,25 @@
     "zh-Hans": "PDF 格式损坏或无效，请重新导出测量报告。",
     "en": "The PDF is damaged or invalid. Export the measurement report again."
   },
-  "發明者：賴文莉教授、龍虎教授 · 開發者：邝芊允 · 聯絡方式：微信 LeticiaQAQ · 若發現 Bug 請告訴我": {
-    "zh-Hant": "發明者：賴文莉教授、龍虎教授 · 開發者：邝芊允 · 聯絡方式：微信 LeticiaQAQ · 若發現 Bug 請告訴我",
-    "zh-Hans": "发明者：赖文莉教授、龙虎教授 · 开发者：邝芊允 · 联系方式：微信 LeticiaQAQ · 若发现 Bug 请告诉我",
-    "en": "Inventors: Prof. Wenli Lai and Prof. Hu Long · Developer: Leticia Kuang · WeChat: LeticiaQAQ · Found a bug? Please let me know."
+  "發明者：賴文莉教授、龍虎教授": {
+    "zh-Hant": "發明者：賴文莉教授、龍虎教授",
+    "zh-Hans": "发明者：赖文莉教授、龙虎教授",
+    "en": "Inventors: Prof. Wenli Lai and Prof. Hu Long"
+  },
+  "開發者：鄺芊允": {
+    "zh-Hant": "開發者：鄺芊允",
+    "zh-Hans": "开发者：邝芊允",
+    "en": "Developer: Leticia Kuang"
+  },
+  "微信：LeticiaQAQ": {
+    "zh-Hant": "微信：LeticiaQAQ",
+    "zh-Hans": "微信：LeticiaQAQ",
+    "en": "WeChat: LeticiaQAQ"
+  },
+  "若發現 Bug，請透過微信告訴我。": {
+    "zh-Hant": "若發現 Bug，請透過微信告訴我。",
+    "zh-Hans": "若发现 Bug，请通过微信告诉我。",
+    "en": "Found a bug? Please let me know via WeChat."
   },
   "檔案未能讀取，請重新選擇檔案。": {
     "zh-Hant": "檔案未能讀取，請重新選擇檔案。",
