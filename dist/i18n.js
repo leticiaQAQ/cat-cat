@@ -1713,10 +1713,10 @@
     "zh-Hans": "PDF 格式损坏或无效，请重新导出测量报告。",
     "en": "The PDF is damaged or invalid. Export the measurement report again."
   },
-  "開發者：邝芊允 · 聯絡方式：微信 LeticiaQAQ · 若發現 Bug 請告訴我": {
-    "zh-Hant": "開發者：邝芊允 · 聯絡方式：微信 LeticiaQAQ · 若發現 Bug 請告訴我",
-    "zh-Hans": "开发者：邝芊允 · 联系方式：微信 LeticiaQAQ · 若发现 Bug 请告诉我",
-    "en": "Developer: Leticia Kuang · WeChat: LeticiaQAQ · Found a bug? Please let me know."
+  "發明者：賴文莉教授、龍虎教授 · 開發者：邝芊允 · 聯絡方式：微信 LeticiaQAQ · 若發現 Bug 請告訴我": {
+    "zh-Hant": "發明者：賴文莉教授、龍虎教授 · 開發者：邝芊允 · 聯絡方式：微信 LeticiaQAQ · 若發現 Bug 請告訴我",
+    "zh-Hans": "发明者：赖文莉教授、龙虎教授 · 开发者：邝芊允 · 联系方式：微信 LeticiaQAQ · 若发现 Bug 请告诉我",
+    "en": "Inventors: Prof. Wenli Lai and Prof. Hu Long · Developer: Leticia Kuang · WeChat: LeticiaQAQ · Found a bug? Please let me know."
   },
   "檔案未能讀取，請重新選擇檔案。": {
     "zh-Hant": "檔案未能讀取，請重新選擇檔案。",
