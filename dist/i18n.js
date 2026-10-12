@@ -331,9 +331,9 @@
     "zh-Hans": "病例与方案",
     "en": "Case and treatment plan"
   },
-  "研究代碼": {
-    "zh-Hant": "研究代碼",
-    "zh-Hans": "研究代码",
+  "病例識別": {
+    "zh-Hant": "病例識別",
+    "zh-Hans": "病例标识",
     "en": "Study ID"
   },
   "病例識別資料": {
