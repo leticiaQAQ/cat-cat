@@ -181,10 +181,10 @@
     "zh-Hans": "保存当前病例为参考",
     "en": "Save current as reference"
   },
-  "一次調整，看見差異": {
-    "zh-Hant": "一次調整，看見差異",
-    "zh-Hans": "一次调整，看见差异",
-    "en": "See the effect of each change"
+  "CAT-CAT 病例比較": {
+    "zh-Hant": "CAT-CAT 病例比較",
+    "zh-Hans": "CAT-CAT 病例比较",
+    "en": "CAT-CAT Case Comparison"
   },
   "先建立一個比較起點": {
     "zh-Hant": "先建立一個比較起點",
@@ -980,11 +980,6 @@
     "zh-Hant": "依 CAT-CAT 加分由高到低排列；數值為該項對總分的貢獻。",
     "zh-Hans": "按 CAT-CAT 加分从高到低排列；数值为该项对总分的贡献。",
     "en": "Items are ranked by CAT-CAT points. Each value is its contribution to the total score."
-  },
-  "參考病例保持固定；目前病例隨輸入更新。分數差異反映項目計分，不代表治療效果。": {
-    "zh-Hant": "參考病例保持固定；目前病例隨輸入更新。分數差異反映項目計分，不代表治療效果。",
-    "zh-Hans": "参考病例保持固定；当前病例随输入更新。分数差异反映项目计分，不代表治疗效果。",
-    "en": "The reference stays fixed while the current case updates. Differences reflect item scoring and do not indicate treatment effects."
   },
   "了解文獻計分、數值匯入與計算約定，讓每項結果可追溯。": {
     "zh-Hant": "了解文獻計分、數值匯入與計算約定，讓每項結果可追溯。",

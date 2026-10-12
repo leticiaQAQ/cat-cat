@@ -58,3 +58,8 @@
 .developer-contact p{margin:0}
 .developer-contact .bug-feedback{margin-top:4px}
 .footer-version{flex:0 0 auto;white-space:nowrap}
+
+/* Place credits at the bottom when the selected tab has little content. */
+.workspace{display:flex;flex-direction:column;min-height:100vh}
+.workspace>main{display:flex;flex:1;flex-direction:column;width:100%}
+.workspace>main>footer{margin-top:auto}
