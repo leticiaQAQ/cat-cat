@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import vm from 'node:vm';
 const dir=path.resolve('dist'),html=fs.readFileSync(path.join(dir,'index.html'),'utf8');
 assert.ok(html.includes('id="totalCard"'));
+assert.ok(!/\\u[0-9a-fA-F]{4}/.test(html),'HTML must not contain literal Unicode escape sequences');
 for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
  const url=match[1];if(/^(?:https?:|data:)/.test(url))continue;
  assert.ok(!url.startsWith('/'),'Use project-relative asset paths: '+url);
