@@ -1713,15 +1713,15 @@
     "zh-Hans": "开发者：邝芊允",
     "en": "Developer: Leticia Kuang"
   },
-  "微信：LeticiaQAQ": {
-    "zh-Hant": "微信：LeticiaQAQ",
-    "zh-Hans": "微信：LeticiaQAQ",
-    "en": "WeChat: LeticiaQAQ"
+  "電子郵件：": {
+    "zh-Hant": "電子郵件：",
+    "zh-Hans": "电子邮件：",
+    "en": "Email:"
   },
-  "若發現 Bug，請透過微信告訴我。": {
-    "zh-Hant": "若發現 Bug，請透過微信告訴我。",
-    "zh-Hans": "若发现 Bug，请通过微信告诉我。",
-    "en": "Found a bug? Please let me know via WeChat."
+  "若發現 Bug，請透過電子郵件告訴我。": {
+    "zh-Hant": "若發現 Bug，請透過電子郵件告訴我。",
+    "zh-Hans": "若发现 Bug，请通过电子邮件告诉我。",
+    "en": "Found a bug? Please let me know via email."
   },
   "檔案未能讀取，請重新選擇檔案。": {
     "zh-Hant": "檔案未能讀取，請重新選擇檔案。",

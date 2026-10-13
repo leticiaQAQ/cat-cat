@@ -6,7 +6,7 @@ const dir=path.resolve('dist'),html=fs.readFileSync(path.join(dir,'index.html'),
 assert.ok(html.includes('id="totalCard"'));
 assert.ok(!/\\u[0-9a-fA-F]{4}/.test(html),'HTML must not contain literal Unicode escape sequences');
 for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
- const url=match[1];if(/^(?:https?:|data:)/.test(url))continue;
+ const url=match[1];if(/^(?:https?:|data:|mailto:)/.test(url))continue;
  assert.ok(!url.startsWith('/'),'Use project-relative asset paths: '+url);
  assert.ok(fs.existsSync(path.join(dir,url.split('?')[0])),'Missing asset: '+url);
 }
