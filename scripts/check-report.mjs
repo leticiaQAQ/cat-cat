@@ -19,7 +19,8 @@ for(const lang of ['en','zh-Hant','zh-Hans','ja','ar']){
   for(const entry of data.results.entries)assert.ok(html.includes(entry.label),entry.label);
   assert.ok(html.includes(t('病例比較')));
   assert.ok(html.includes(t('匯入測量來源')));
-  assert.ok(html.includes(t('合成示例：此報告用於展示計分。')));
+  assert.ok(!html.includes(t('合成示例：此報告用於展示計分。')));
+  assert.ok(!html.includes(t('文獻項目加總 · 無固定滿分')));
   assert.ok(html.includes(t('需要矯正')));
   assert.ok(!html.includes(t('前牙開咬涉及牙數')+': '),'Inactive input must not appear');
   assert.equal((html.match(/class="numeric"/g)||[]).length,result.entries.length);
