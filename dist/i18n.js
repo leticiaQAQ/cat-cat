@@ -981,11 +981,6 @@
     "zh-Hans": "按 CAT-CAT 加分从高到低排列；数值为该项对总分的贡献。",
     "en": "Items are ranked by CAT-CAT points. Each value is its contribution to the total score."
   },
-  "了解文獻計分、數值匯入與計算約定，讓每項結果可追溯。": {
-    "zh-Hant": "了解文獻計分、數值匯入與計算約定，讓每項結果可追溯。",
-    "zh-Hans": "了解文献计分、数值导入与计算约定，让每项结果可追溯。",
-    "en": "Understand published scoring, measurement imports and calculation conventions behind each result."
-  },
   "原表條件已轉為繁體中文數值欄位。有無項目按「有／無」計分；僅原表明列每牙計分的項目按牙數累加。": {
     "zh-Hant": "原表條件已轉為三語數值欄位。有無項目按「有／無」計分；僅原表明列每牙計分的項目按牙數累加。",
     "zh-Hans": "原表条件已转为三语数值字段。有无项目按“有／无”计分；仅原表明确按每颗牙计分的项目按牙数累加。",
