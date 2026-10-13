@@ -1775,7 +1775,8 @@
 "確認值":{"zh-Hant": "確認值", "zh-Hans": "确认值", "en": "Confirmed value"},
 "來源位置":{"zh-Hant": "來源位置", "zh-Hans": "来源位置", "en": "Source location"},
 "未填寫":{"zh-Hant": "未填寫", "zh-Hans": "未填写", "en": "Not entered"},
-"請允許此網站開啟報告視窗，再試一次。":{"zh-Hant": "請允許此網站開啟報告視窗，再試一次。", "zh-Hans": "请允许此网站打开报告窗口，再试一次。", "en": "Allow this site to open the report window, then try again."}
+"請允許此網站開啟報告視窗，再試一次。":{"zh-Hant": "請允許此網站開啟報告視窗，再試一次。", "zh-Hans": "请允许此网站打开报告窗口，再试一次。", "en": "Allow this site to open the report window, then try again."},
+"隱形矯治難度評分":{"zh-Hant": "隱形矯治難度評分", "zh-Hans": "隐形矫治难度评分", "en": "Clear aligner treatment difficulty score"}
 };
   for(const [key,translations] of Object.entries(window.CatExtraTranslations||{}))dictionary[key]={...(dictionary[key]||{}),...translations};
   let lang='en';
