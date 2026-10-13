@@ -1,6 +1,6 @@
 # CAT-CAT Calculator / CAT-CAT 计算机
 
-A browser-local CAT-CAT scoring prototype in Traditional Chinese, Simplified Chinese and English.
+A browser-local CAT-CAT scoring prototype in Traditional Chinese, Simplified Chinese, English, Japanese, and Arabic.
 
 ## Use
 

@@ -1729,10 +1729,11 @@
     "en": "The file could not be read. Select it again."
   }
 };
+  for(const [key,translations] of Object.entries(window.CatExtraTranslations||{}))dictionary[key]={...(dictionary[key]||{}),...translations};
   let lang='en';
-  try{const saved=localStorage.getItem('catcat-demo-language-v1');if(['zh-Hant','zh-Hans','en'].includes(saved))lang=saved;}catch{}
+  try{const saved=localStorage.getItem('catcat-demo-language-v1');if(['zh-Hant','zh-Hans','en','ja','ar'].includes(saved))lang=saved;}catch{}
   const records=[];
-  function t(key,params={}){let value=dictionary[key]?.[lang]??key;return value.replace(/\{(\w+)\}/g,(_,k)=>params[k]??`{${k}}`);}
+  function t(key,params={}){let value=dictionary[key]?.[lang]??dictionary[key]?.en??key;return value.replace(/\{(\w+)\}/g,(_,k)=>params[k]??`{${k}}`);}
   function capture(root){
     const walk=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
     while(walk.nextNode()){
@@ -1749,10 +1750,11 @@
   function apply(){
     for(const rec of records){if(!rec.node.isConnected)continue;if(rec.attr)rec.node.setAttribute(rec.attr,t(rec.key));else rec.node.textContent=rec.prefix+t(rec.key)+rec.suffix;}
     document.documentElement.lang=lang;
+    document.documentElement.dir=lang==='ar'?'rtl':'ltr';
     document.title=t('CAT-CAT 計算機');
     document.querySelector('meta[name="description"]').content=t('CAT-CAT 計算機。依文獻計算項目分數，匯入頭影測量資料並比較病例輸入。');
   }
-  function set(next){if(!['zh-Hant','zh-Hans','en'].includes(next))return;lang=next;try{localStorage.setItem('catcat-demo-language-v1',lang);}catch{}apply();}
+  function set(next){if(!['zh-Hant','zh-Hans','en','ja','ar'].includes(next))return;lang=next;try{localStorage.setItem('catcat-demo-language-v1',lang);}catch{}apply();}
   function error(message,f){if(message?.startsWith('範圍 '))return t('範圍 {min}–{max} {unit}',{min:f.min,max:f.max,unit:t(f.unit)});return t(message||'');}
-  window.CatI18n={t,capture,apply,set,error,get lang(){return lang;},get locale(){return {'zh-Hant':'zh-TW','zh-Hans':'zh-CN',en:'en-US'}[lang];},dictionary};
+  window.CatI18n={t,capture,apply,set,error,get lang(){return lang;},get locale(){return {'zh-Hant':'zh-TW','zh-Hans':'zh-CN',en:'en-US',ja:'ja-JP',ar:'ar'}[lang];},dictionary};
 })();

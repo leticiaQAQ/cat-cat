@@ -63,3 +63,16 @@
 .workspace{display:flex;flex-direction:column;min-height:100vh}
 .workspace>main{display:flex;flex:1;flex-direction:column;width:100%}
 .workspace>main>footer{margin-top:auto}
+
+/* Arabic interface follows the reading direction on desktop and mobile. */
+[dir="rtl"] .shell{grid-template-columns:minmax(0,1fr) 244px}
+[dir="rtl"] .sidebar{right:0;left:auto}
+[dir="rtl"] .workspace{grid-column:1}
+[dir="rtl"] .nav-button{text-align:right}
+[dir="rtl"] input[type="number"],[dir="rtl"] .formula,[dir="rtl"] code{direction:ltr;unicode-bidi:isolate}
+[dir="rtl"] .terminology-card table{direction:ltr}
+@media(max-width:1300px){[dir="rtl"] .shell{grid-template-columns:minmax(0,1fr) 218px}}
+@media(max-width:760px){[dir="rtl"] .shell{display:block}[dir="rtl"] .sidebar{position:static;width:100%}[dir="rtl"] .workspace{grid-column:auto}}
+[dir="rtl"] .side-bottom small{margin:7px 21px 0 0}
+[dir="rtl"] .toast{left:calc(50% - 122px)}
+@media(max-width:760px){[dir="rtl"] .toast{left:50%}}
