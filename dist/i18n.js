@@ -1754,7 +1754,7 @@
 "匯入資料或建立新病例後，固定參考病例仍保留。":{"zh-Hant": "匯入資料或建立新病例後，固定參考病例仍保留。", "zh-Hans": "导入资料或建立新病例后，固定参考病例仍保留。", "en": "The fixed reference case is retained after an import or when creating a new case."},
 "病例保存確認值與來源名稱、頁碼；不保存原始檔案與全文。":{"zh-Hant": "病例保存確認值與來源名稱、頁碼；不保存原始檔案與全文。", "zh-Hans": "病例保存确认值与来源名称、页码；不保存原始文件与全文。", "en": "Cases store confirmed values and source names and page numbers. Original files and full text are not retained."},
 "病例與草稿保存在目前瀏覽器，可用 JSON 備份及還原。":{"zh-Hant": "病例與草稿保存在目前瀏覽器，可用 JSON 備份及還原。", "zh-Hans": "病例与草稿保存在当前浏览器，可用 JSON 备份及还原。", "en": "Cases and drafts are stored in this browser. Back up and restore them using JSON."},
-"評估報告／PDF":{"zh-Hant": "評估報告／PDF", "zh-Hans": "评估报告／PDF", "en": "Report / PDF"},
+"匯出評估 PDF":{"zh-Hant": "匯出評估 PDF", "zh-Hans": "导出评估 PDF", "en": "Export assessment PDF"},
 "儲存 PDF／列印":{"zh-Hant": "儲存 PDF／列印", "zh-Hans": "保存 PDF／打印", "en": "Save PDF / Print"},
 "關閉報告":{"zh-Hant": "關閉報告", "zh-Hans": "关闭报告", "en": "Close report"},
 "在列印視窗選擇「另存為 PDF」，即可保存表格報告。":{"zh-Hant": "在列印視窗選擇「另存為 PDF」，即可保存表格報告。", "zh-Hans": "在打印窗口选择“另存为 PDF”，即可保存表格报告。", "en": "Choose “Save as PDF” in the print dialog to save this table report."},
