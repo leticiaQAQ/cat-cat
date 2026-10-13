@@ -1731,7 +1731,29 @@
 "日本矯正齒科學會：前牙開咬診療指引 ↗":{"zh-Hant": "日本矯正齒科學會：前牙開咬診療指引 ↗", "zh-Hans": "日本正畸学会：前牙开（牙合）诊疗指南 ↗", "en": "Japanese Orthodontic Society: anterior open-bite guideline ↗"},
 "日本顎關節學會：顳顎關節診療指引 ↗":{"zh-Hant": "日本顎關節學會：顳顎關節診療指引 ↗", "zh-Hans": "日本颞下颌关节学会：诊疗指南 ↗", "en": "Japanese Society for the Temporomandibular Joint: clinical guidelines ↗"},
 "于斯屈達爾大學牙科醫院：矯正治療與咬合問題（阿拉伯語）↗":{"zh-Hant": "于斯屈達爾大學牙科醫院：矯正治療與咬合問題（阿拉伯語）↗", "zh-Hans": "于斯屈达尔大学牙科医院：正畸治疗与咬合问题（阿拉伯语）↗", "en": "Üsküdar University Dental Hospital: orthodontics and bite problems (Arabic) ↗"},
-"法赫德國王醫療城：顳顎關節障礙（阿拉伯語 PDF）↗":{"zh-Hant": "法赫德國王醫療城：顳顎關節障礙（阿拉伯語 PDF）↗", "zh-Hans": "法赫德国王医疗城：颞下颌关节障碍（阿拉伯语 PDF）↗", "en": "King Fahad Medical City: temporomandibular joint disorders (Arabic PDF) ↗"}
+"法赫德國王醫療城：顳顎關節障礙（阿拉伯語 PDF）↗":{"zh-Hant": "法赫德國王醫療城：顳顎關節障礙（阿拉伯語 PDF）↗", "zh-Hans": "法赫德国王医疗城：颞下颌关节障碍（阿拉伯语 PDF）↗", "en": "King Fahad Medical City: temporomandibular joint disorders (Arabic PDF) ↗"},
+"依 Long 等人（2020）Table 1 計分。":{"zh-Hant": "依 Long 等人（2020）Table 1 計分。", "zh-Hans": "依据 Long 等人（2020）Table 1 计分。", "en": "Scoring follows Table 1 of Long et al. (2020)."},
+"總分由三部分相加：模型分析、影像檢查、臨床檢查。":{"zh-Hant": "總分由三部分相加：模型分析、影像檢查、臨床檢查。", "zh-Hans": "总分由三部分相加：模型分析、影像检查、临床检查。", "en": "Add three components: dental model analysis, radiographic examinations and clinical examinations."},
+"有無項目按「有／無」計分；只有原表註明的項目按牙數累加。":{"zh-Hant": "有無項目按「有／無」計分；只有原表註明的項目按牙數累加。", "zh-Hans": "有无项目按“有／无”计分；只有原表注明的项目按牙数累加。", "en": "Presence/absence items use the confirmed choice. Multiply by tooth count only where the source specifies it."},
+"檔案在瀏覽器本機讀取。":{"zh-Hant": "檔案在瀏覽器本機讀取。", "zh-Hans": "文件在浏览器本机读取。", "en": "Files are read locally in your browser."},
+"依測量名稱、患者數值及單位對應欄位。":{"zh-Hant": "依測量名稱、患者數值及單位對應欄位。", "zh-Hans": "根据测量名称、患者数值及单位匹配字段。", "en": "Fields are matched by measurement name, patient value and unit."},
+"系統讀取已記錄的測量值；不從影像重新測量。不同參考平面的角度不可互相替代。":{"zh-Hant": "系統讀取已記錄的測量值；不從影像重新測量。不同參考平面的角度不可互相替代。", "zh-Hans": "系统读取已记录的测量值；不从影像重新测量。不同参考平面的角度不可互相替代。", "en": "The system reads recorded measurements; it does not measure the image. Angles using different reference planes are not interchangeable."},
+"填入前逐項核對。可取消勾選不採用的數值。":{"zh-Hant": "填入前逐項核對。可取消勾選不採用的數值。", "zh-Hans": "填入前逐项核对。可取消勾选不采用的数值。", "en": "Review each value before applying it. Uncheck values you do not want to use."},
+"新病例：只填入確認的數值，缺失項目留空。":{"zh-Hant": "新病例：只填入確認的數值，缺失項目留空。", "zh-Hans": "新病例：只填入确认的数值，缺失项目留空。", "en": "New case: fill confirmed values only. Missing items stay blank."},
+"合併病例：只替換勾選項目。最近一次填入可撤銷。":{"zh-Hant": "合併病例：只替換勾選項目。最近一次填入可撤銷。", "zh-Hans": "合并病例：只替换勾选项目。最近一次填入可撤销。", "en": "Merge: replace selected items only. The most recent import can be undone."},
+"原表區間端點重疊時，採相鄰較低分。":{"zh-Hant": "原表區間端點重疊時，採相鄰較低分。", "zh-Hans": "原表区间端点重叠时，采用相邻较低分。", "en": "When source intervals overlap at an endpoint, use the lower adjacent score."},
+"例：水平覆咬 1 或 3 mm 為 0 分；U1–SN 110° 為 0 分。":{"zh-Hant": "例：水平覆咬 1 或 3 mm 為 0 分；U1–SN 110° 為 0 分。", "zh-Hans": "例：覆盖 1 或 3 mm 为 0 分；U1–SN 110° 为 0 分。", "en": "Examples: overjet of 1 or 3 mm scores 0; U1–SN of 110° scores 0."},
+"旋轉與間隙按原表單位比例計分。允許小數，不向上取整。":{"zh-Hant": "旋轉與間隙按原表單位比例計分。允許小數，不向上取整。", "zh-Hans": "旋转与间隙按原表单位比例计分。允许小数，不向上取整。", "en": "Rotation and spacing use proportional scoring in the source units. Decimal scores are allowed without rounding up."},
+"前牙開咬：覆咬欄輸入負值。分數＝開咬深度（mm） × 涉及牙數 × 3。":{"zh-Hant": "前牙開咬：覆咬欄輸入負值。分數＝開咬深度（mm） × 涉及牙數 × 3。", "zh-Hans": "前牙开（牙合）：覆（牙合）字段输入负值。分数＝开（牙合）深度（mm） × 涉及牙数 × 3。", "en": "Anterior open bite: enter negative overbite. Score = open-bite depth (mm) × affected tooth count × 3."},
+"各牙深度不同時，前牙輸入平均深度；後牙輸入各牙深度總和。":{"zh-Hant": "各牙深度不同時，前牙輸入平均深度；後牙輸入各牙深度總和。", "zh-Hans": "各牙深度不同时，前牙输入平均深度；后牙输入各牙深度总和。", "en": "If depths differ, enter the average depth for anterior teeth and the sum of depths for posterior teeth."},
+"磨牙移動按病例輸入的移動量計分，不額外乘以牙數。":{"zh-Hant": "磨牙移動按病例輸入的移動量計分，不額外乘以牙數。", "zh-Hans": "磨牙移动按病例输入的移动量计分，不额外乘以牙数。", "en": "Molar movement is scored using the case-level amount entered, without multiplying by tooth count."},
+"總分是項目分數的加總，沒有固定滿分，也不換算為百分比。":{"zh-Hant": "總分是項目分數的加總，沒有固定滿分，也不換算為百分比。", "zh-Hans": "总分是项目分数的加总，没有固定满分，也不换算为百分比。", "en": "The total is the sum of item scores. It has no fixed maximum and is not converted to a percentage."},
+"原文未設定低、中、高總分分界。頁面顯示總分及各項貢獻。":{"zh-Hant": "原文未設定低、中、高總分分界。頁面顯示總分及各項貢獻。", "zh-Hans": "原文未设定低、中、高总分分界。页面显示总分及各项贡献。", "en": "The publication does not define low, medium or high total-score thresholds. The page shows the total and each item’s contribution."},
+"預設病例為合成示例。新病例的未知項目留空；選擇「無」前須確認。":{"zh-Hant": "預設病例為合成示例。新病例的未知項目留空；選擇「無」前須確認。", "zh-Hans": "默认病例为合成示例。新病例的未知项目留空；选择“无”前须确认。", "en": "Default cases are synthetic examples. Leave unknown items blank in a new case; confirm absence before selecting “No”."},
+"必填項目空白、超出範圍或格式錯誤時，暫停顯示總分。":{"zh-Hant": "必填項目空白、超出範圍或格式錯誤時，暫停顯示總分。", "zh-Hans": "必填项目为空、超出范围或格式错误时，暂停显示总分。", "en": "The total is paused when required inputs are blank, out of range or invalid."},
+"匯入資料或建立新病例後，固定參考病例仍保留。":{"zh-Hant": "匯入資料或建立新病例後，固定參考病例仍保留。", "zh-Hans": "导入资料或建立新病例后，固定参考病例仍保留。", "en": "The fixed reference case is retained after an import or when creating a new case."},
+"病例保存確認值與來源名稱、頁碼；不保存原始檔案與全文。":{"zh-Hant": "病例保存確認值與來源名稱、頁碼；不保存原始檔案與全文。", "zh-Hans": "病例保存确认值与来源名称、页码；不保存原始文件与全文。", "en": "Cases store confirmed values and source names and page numbers. Original files and full text are not retained."},
+"病例與草稿保存在目前瀏覽器，可用 JSON 備份及還原。":{"zh-Hant": "病例與草稿保存在目前瀏覽器，可用 JSON 備份及還原。", "zh-Hans": "病例与草稿保存在当前浏览器，可用 JSON 备份及还原。", "en": "Cases and drafts are stored in this browser. Back up and restore them using JSON."}
 };
   for(const [key,translations] of Object.entries(window.CatExtraTranslations||{}))dictionary[key]={...(dictionary[key]||{}),...translations};
   let lang='en';
