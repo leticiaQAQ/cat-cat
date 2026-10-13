@@ -20,7 +20,9 @@ jobs:
       - name: Check out source
         uses: actions/checkout@v6
       - name: Verify static site
-        run: node scripts/check-site.mjs
+        run: |
+          node scripts/check-site.mjs
+          node scripts/check-report.mjs
       - name: Set up Pages
         uses: actions/configure-pages@v5
       - name: Upload site

@@ -1,0 +1,32 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),M=require('../dist/model.js'),R=require('../dist/report.js');
+const context={window:{},localStorage:{getItem:()=>null}};
+for(const file of ['i18n-ja-ar.js','i18n.js'])vm.runInNewContext(fs.readFileSync('dist/'+file,'utf8'),context);
+const I=context.window.CatI18n;
+const state={...M.presets.complex,molar:'distal',molarMm:1},result=M.evaluate(state);
+assert.equal(result.baseline,57);
+assert.equal(Object.values(result.domains).reduce((a,b)=>a+b,0),57);
+for(const lang of ['en','zh-Hant','zh-Hans','ja','ar']){
+  const t=(key,params={})=>(I.dictionary[key]?.[lang]??I.dictionary[key]?.en??key).replace(/\{(\w+)\}/g,(_,k)=>params[k]??`{${k}}`);
+  const data={input:state,results:{...result,entries:result.entries.map(e=>({...e,label:t(e.label)}))},caseName:'<img src=x onerror=alert(1)>',caseKind:'example',language:lang,version:M.version,createdAt:'2026-10-13T01:33:58.807Z',baselineSource:'Long et al. Table 1',reference:{input:M.presets.moderate,results:M.evaluate(M.presets.moderate),difference:M.diff(M.presets.moderate,state)},importedMeasurements:[{field:'anb',label:'ANB',value:7,origins:[{page:1}]}]};
+  const html=R.build(data,M,{t,locale:lang==='ar'?'ar':lang==='ja'?'ja-JP':'en-US'});
+  assert.ok(html.includes('&lt;img src=x onerror=alert(1)&gt;'));
+  assert.ok(!html.includes('<img src=x'));
+  assert.ok(html.includes(`dir="${lang==='ar'?'rtl':'ltr'}"`));
+  for(const entry of data.results.entries)assert.ok(html.includes(entry.label),entry.label);
+  assert.ok(html.includes(t('病例比較')));
+  assert.ok(html.includes(t('匯入測量來源')));
+  assert.ok(html.includes(t('合成示例：此報告用於展示計分。')));
+  assert.ok(html.includes(t('需要矯正')));
+  assert.ok(!html.includes(t('前牙開咬涉及牙數')+': '),'Inactive input must not appear');
+  assert.equal((html.match(/class="numeric"/g)||[]).length,result.entries.length);
+}
+const openState={...state,overbite:-2,openTeeth:3},openResult=M.evaluate(openState);
+const openHtml=R.build({input:openState,results:openResult,language:'en',createdAt:new Date().toISOString()},M);
+assert.ok(openHtml.includes('前牙開咬涉及牙數: '));
+assert.throws(()=>R.build({results:{valid:false}},M),/Incomplete/);
+assert.equal(R.filename({input:{caseId:'A/B<name>'}}),'CAT-CAT_A_B_name_');
+console.log('Report totals, active inputs, translations, comparisons, sources and HTML escaping verified.');

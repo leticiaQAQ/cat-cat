@@ -19,3 +19,7 @@ The item-score adaptation is based on Long et al., BMC Oral Health 2020;20:312, 
 3. The `Deploy CAT-CAT to GitHub Pages` workflow verifies and publishes `dist/`.
 
 The workflow can also be run manually in Actions. The live URL is supplied by the deployment job. Dependencies and OCR language data are bundled locally; their upstream licenses remain under `dist/vendor/`. Source host configuration and patient uploads are not part of this repository.
+
+## Assessment reports
+
+Use **Report / PDF** to preview a table report, then choose **Save PDF / Print** and save it as PDF in the browser print dialog. Reports include case inputs, item scores, domain subtotals, reference comparisons and imported measurement sources. JSON export remains available for data backup. Reports are generated locally and support all five interface languages.

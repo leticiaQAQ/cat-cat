@@ -1753,7 +1753,29 @@
 "必填項目空白、超出範圍或格式錯誤時，暫停顯示總分。":{"zh-Hant": "必填項目空白、超出範圍或格式錯誤時，暫停顯示總分。", "zh-Hans": "必填项目为空、超出范围或格式错误时，暂停显示总分。", "en": "The total is paused when required inputs are blank, out of range or invalid."},
 "匯入資料或建立新病例後，固定參考病例仍保留。":{"zh-Hant": "匯入資料或建立新病例後，固定參考病例仍保留。", "zh-Hans": "导入资料或建立新病例后，固定参考病例仍保留。", "en": "The fixed reference case is retained after an import or when creating a new case."},
 "病例保存確認值與來源名稱、頁碼；不保存原始檔案與全文。":{"zh-Hant": "病例保存確認值與來源名稱、頁碼；不保存原始檔案與全文。", "zh-Hans": "病例保存确认值与来源名称、页码；不保存原始文件与全文。", "en": "Cases store confirmed values and source names and page numbers. Original files and full text are not retained."},
-"病例與草稿保存在目前瀏覽器，可用 JSON 備份及還原。":{"zh-Hant": "病例與草稿保存在目前瀏覽器，可用 JSON 備份及還原。", "zh-Hans": "病例与草稿保存在当前浏览器，可用 JSON 备份及还原。", "en": "Cases and drafts are stored in this browser. Back up and restore them using JSON."}
+"病例與草稿保存在目前瀏覽器，可用 JSON 備份及還原。":{"zh-Hant": "病例與草稿保存在目前瀏覽器，可用 JSON 備份及還原。", "zh-Hans": "病例与草稿保存在当前浏览器，可用 JSON 备份及还原。", "en": "Cases and drafts are stored in this browser. Back up and restore them using JSON."},
+"評估報告／PDF":{"zh-Hant": "評估報告／PDF", "zh-Hans": "评估报告／PDF", "en": "Report / PDF"},
+"儲存 PDF／列印":{"zh-Hant": "儲存 PDF／列印", "zh-Hans": "保存 PDF／打印", "en": "Save PDF / Print"},
+"關閉報告":{"zh-Hant": "關閉報告", "zh-Hans": "关闭报告", "en": "Close report"},
+"在列印視窗選擇「另存為 PDF」，即可保存表格報告。":{"zh-Hant": "在列印視窗選擇「另存為 PDF」，即可保存表格報告。", "zh-Hans": "在打印窗口选择“另存为 PDF”，即可保存表格报告。", "en": "Choose “Save as PDF” in the print dialog to save this table report."},
+"病例評估報告":{"zh-Hant": "病例評估報告", "zh-Hans": "病例评估报告", "en": "Case assessment report"},
+"匯出時間":{"zh-Hant": "匯出時間", "zh-Hans": "导出时间", "en": "Exported at"},
+"合成示例：此報告用於展示計分。":{"zh-Hant": "合成示例：此報告用於展示計分。", "zh-Hans": "合成示例：此报告用于展示计分。", "en": "Synthetic example: this report demonstrates scoring."},
+"計分項目":{"zh-Hant": "計分項目", "zh-Hans": "计分项目", "en": "Scoring item"},
+"病例輸入":{"zh-Hant": "病例輸入", "zh-Hans": "病例输入", "en": "Case input"},
+"分數":{"zh-Hant": "分數", "zh-Hans": "分数", "en": "Score"},
+"病例比較":{"zh-Hant": "病例比較", "zh-Hans": "病例比较", "en": "Case comparison"},
+"變更項目":{"zh-Hant": "變更項目", "zh-Hans": "变更项目", "en": "Changed input"},
+"參考值":{"zh-Hant": "參考值", "zh-Hans": "参考值", "en": "Reference value"},
+"目前值":{"zh-Hant": "目前值", "zh-Hans": "当前值", "en": "Current value"},
+"輸入未變更":{"zh-Hant": "輸入未變更", "zh-Hans": "输入未变更", "en": "No inputs changed"},
+"分數差異反映項目計分，不代表治療效果。":{"zh-Hant": "分數差異反映項目計分，不代表治療效果。", "zh-Hans": "分数差异反映项目计分，不代表治疗效果。", "en": "Score differences reflect item scoring, not treatment outcomes."},
+"匯入測量來源":{"zh-Hant": "匯入測量來源", "zh-Hans": "导入测量来源", "en": "Imported measurement sources"},
+"測量項目":{"zh-Hant": "測量項目", "zh-Hans": "测量项目", "en": "Measurement"},
+"確認值":{"zh-Hant": "確認值", "zh-Hans": "确认值", "en": "Confirmed value"},
+"來源位置":{"zh-Hant": "來源位置", "zh-Hans": "来源位置", "en": "Source location"},
+"未填寫":{"zh-Hant": "未填寫", "zh-Hans": "未填写", "en": "Not entered"},
+"請允許此網站開啟報告視窗，再試一次。":{"zh-Hant": "請允許此網站開啟報告視窗，再試一次。", "zh-Hans": "请允许此网站打开报告窗口，再试一次。", "en": "Allow this site to open the report window, then try again."}
 };
   for(const [key,translations] of Object.entries(window.CatExtraTranslations||{}))dictionary[key]={...(dictionary[key]||{}),...translations};
   let lang='en';
