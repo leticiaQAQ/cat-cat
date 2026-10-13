@@ -261,10 +261,10 @@
     "zh-Hans": "继续探索 →",
     "en": "Continue exploring →"
   },
-  "每一個結果，都有可查的來源。": {
-    "zh-Hant": "每一個結果，都有可查的來源。",
-    "zh-Hans": "每个结果，都有可查的来源。",
-    "en": "Every result has a traceable source."
+  "規則說明": {
+    "zh-Hant": "規則說明",
+    "zh-Hans": "规则说明",
+    "en": "Scoring rules"
   },
   "CAT-CAT 文獻基準": {
     "zh-Hant": "CAT-CAT 文獻基準",
