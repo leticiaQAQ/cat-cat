@@ -1727,7 +1727,16 @@
     "zh-Hant": "檔案未能讀取，請重新選擇檔案。",
     "zh-Hans": "文件未能读取，请重新选择文件。",
     "en": "The file could not be read. Select it again."
-  }
+  },
+"共同計分來源":{"zh-Hant": "共同計分來源", "zh-Hans": "共同计分来源", "en": "Shared scoring source"},
+"各語言參考資料":{"zh-Hant": "各語言參考資料", "zh-Hans": "各语言参考资料", "en": "References by source language"},
+"CAT-CAT 計分依據英文原始研究的 Table 1。下列資料依原文語言分組，用於臨床術語及背景查核。":{"zh-Hant": "CAT-CAT 計分依據英文原始研究的 Table 1。下列資料依原文語言分組，用於臨床術語及背景查核。", "zh-Hans": "CAT-CAT 计分依据英文原始研究的 Table 1。以下资料按原文语言分组，用于临床术语及背景核对。", "en": "CAT-CAT scoring follows Table 1 of the original English-language study. References below are grouped by their original language for checking clinical terminology and background."},
+"美國矯正醫師協會（AAO）：矯正術語表 ↗":{"zh-Hant": "美國矯正醫師協會（AAO）：矯正術語表 ↗", "zh-Hans": "美国正畸医师协会（AAO）：正畸术语表 ↗", "en": "American Association of Orthodontists (AAO): orthodontic glossary ↗"},
+"日本矯正齒科學會：不正咬合與矯正治療 ↗":{"zh-Hant": "日本矯正齒科學會：不正咬合與矯正治療 ↗", "zh-Hans": "日本正畸学会：错（牙合）与正畸治疗 ↗", "en": "Japanese Orthodontic Society: malocclusion and orthodontic treatment ↗"},
+"日本矯正齒科學會：前牙開咬診療指引 ↗":{"zh-Hant": "日本矯正齒科學會：前牙開咬診療指引 ↗", "zh-Hans": "日本正畸学会：前牙开（牙合）诊疗指南 ↗", "en": "Japanese Orthodontic Society: anterior open-bite guideline ↗"},
+"日本顎關節學會：顳顎關節診療指引 ↗":{"zh-Hant": "日本顎關節學會：顳顎關節診療指引 ↗", "zh-Hans": "日本颞下颌关节学会：诊疗指南 ↗", "en": "Japanese Society for the Temporomandibular Joint: clinical guidelines ↗"},
+"于斯屈達爾大學牙科醫院：矯正治療與咬合問題（阿拉伯語）↗":{"zh-Hant": "于斯屈達爾大學牙科醫院：矯正治療與咬合問題（阿拉伯語）↗", "zh-Hans": "于斯屈达尔大学牙科医院：正畸治疗与咬合问题（阿拉伯语）↗", "en": "Üsküdar University Dental Hospital: orthodontics and bite problems (Arabic) ↗"},
+"法赫德國王醫療城：顳顎關節障礙（阿拉伯語 PDF）↗":{"zh-Hant": "法赫德國王醫療城：顳顎關節障礙（阿拉伯語 PDF）↗", "zh-Hans": "法赫德国王医疗城：颞下颌关节障碍（阿拉伯语 PDF）↗", "en": "King Fahad Medical City: temporomandibular joint disorders (Arabic PDF) ↗"}
 };
   for(const [key,translations] of Object.entries(window.CatExtraTranslations||{}))dictionary[key]={...(dictionary[key]||{}),...translations};
   let lang='en';
